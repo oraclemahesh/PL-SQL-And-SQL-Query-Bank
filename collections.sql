@@ -1,6 +1,6 @@
 DECLARE
    TYPE salary IS TABLE OF NUMBER INDEX BY VARCHAR2(20);
-   salary_list salary;
+      salary_list salary:=salary();
    name   VARCHAR2(20);
 BEGIN
    -- adding elements to the table
